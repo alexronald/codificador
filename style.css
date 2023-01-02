@@ -1,0 +1,222 @@
+
+body{
+    background-color: black;
+    font-family: Consolas,monaco,monospace; 
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #149414;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    /*margin-top: 40px;
+    width: initial;
+    */
+}
+
+.icono{
+    display:inline;
+    margin: 0;
+
+}
+.icono>img{
+    width: 70px;
+    height: auto;
+}
+
+.titulo{
+    color: #149414;
+    text-align: center;
+    width: 93%;
+}
+
+/*escritorio*/
+    .class-body{
+        display: flex;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        /*background-color: rgb(6, 83, 80);*/
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+
+    .cont-btn{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn-primario{
+       width: 40%;
+    }
+    .btn-secundario{
+        width: 40%;}
+
+    #btn-copiar{
+        margin-top: 82px;
+        width: 100%;
+    }
+    .colm-1{
+        height: 100%;
+        width: 60%;
+        padding-right: 10%;
+    }
+    .colm-2{
+        height: 100%;
+        width: 30%;
+    
+        }
+
+    .texto{
+        padding: 5% 5%;
+        height: 280px;
+        width: 90%;
+
+    }
+
+/*para tabletas*/
+@media (max-width:850px) {
+    .class-body{
+        display: flex;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        /*background-color: rgb(6, 83, 80);*/
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .cont-btn{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn-primario{
+       width: 50%;
+    }
+    .btn-secundario{
+        width: 50%;}
+
+    #btn-copiar{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .colm-1{
+        padding-right: 0px;
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    .colm-2{
+        width: 100%;
+        margin-top: 30px;
+    
+        }
+
+    .texto{
+        padding: 5% 5%;
+        height: 50px;
+        width: 90%;
+
+    }
+    .mensaje>img{
+        display: none;
+    }
+}
+
+/*para moviles*/
+@media (max-width:450px) {
+    .class-body{
+        display: flex;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        /*background-color: rgb(6, 83, 80);*/
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .cont-btn{
+        margin-top: 0px;
+        display: block;
+    }
+    .btn-primario{
+        margin-top: 10PX;
+        width: 100%;}
+
+    .btn-secundario{
+        margin-top: 10px;
+        width: 100%;}
+
+    .colm-1{
+        padding-right: 0px;
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    .colm-2{
+        width: 100%;
+        margin-top: 30px;
+    
+        }
+
+    .texto{
+        padding: 5% 5%;
+        height: 40px;
+        width: 90%;
+
+    }
+    .mensaje>img{
+        display: none;
+    }
+}
+textarea {
+    overflow: auto;
+    outline: none;
+    place-content: #149414;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    border: solid #149414 1px;
+    color: #149414;
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+textarea::placeholder {color: #149414;}
+
+.form{
+    display: none;
+}
+.mensaje{
+    text-align: center;
+}
+.btn-primario{
+    color: black;
+    background-color: #149414;
+    padding: 10px 20px ;
+    border: solid 3px #149414;
+    border-radius: 0px;
+    font-size: 18px;
+}
+.btn-secundario{
+    color: #149414;
+    border: solid 3px #149414;
+    background-color: transparent;
+    padding: 10px 20px ;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+.footer{
+    color: #149414;
+    text-align: center;
+}

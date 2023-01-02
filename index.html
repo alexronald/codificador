@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="icono">
+                <img src="loho.png"/>
+            </div>
+            <div class="titulo">
+              <h2>alura</h2>
+            </div>
+        </div>
+    </header>
+
+    <main class="class-body">
+        <div class=" colm-1">
+            <textarea class="texto" id="tex_entrada" type="text" placeholder="Tu Texto Aqui"></textarea>
+
+            <small><P>&#9432 Solo letras minúsculas y sin acentos</P></small>
+            <div class="cont-btn">
+                <button onclick="encriptar()" class="btn-primario">encriptar</button>
+                <button  id="btn-desencriptar" class="btn-secundario">desencriptar</button>
+            </div>
+        </div>
+        <div class=" colm-2">
+            <div class="mensaje">
+                <img src="Muñeco.png" alt="">
+                <h1>
+                    Ningún mensaje fue encontrado
+                </h1>
+                <p>
+                    Ingresa el texto que desees encriptar o desencriptar.
+                </p>
+            </div>
+            <div class="form">
+            <textarea class="texto" id="tex_salida" type="text" placeholder="Tu Texto Aqui"></textarea>
+            <button id="btn-copiar" class="btn-primario">copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <small><p>pie de pagina</p></small>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
